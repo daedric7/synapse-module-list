@@ -16,3 +16,6 @@
 
 [Matrix-Synapse Shielded User Invites Module](https://github.com/lovelaced/synapse-mayinvite)
 > This module is a matrix-synapse server module that blocks certain users from receiving invites from users on other homeservers. This is useful if you have a specific list of users that should not receive invites from users on other homeservers, for example if you want to protect the privacy of these users.
+
+[Matrix encryption disabler](https://github.com/digitalentity/matrix_encryption_disabler)
+> This Pluggable Module disables end-to-end encryption in a self-hosted Synapse servers. It works by stripping out requests for encryption from newly created rooms, patching power levels to prevent users from enabling encryption and additionally filtering out events for enabling E2EE on already existing rooms if a user or a room belongs to a configured list of servers.
