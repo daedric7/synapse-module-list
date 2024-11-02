@@ -19,3 +19,6 @@
 
 [Matrix encryption disabler](https://github.com/digitalentity/matrix_encryption_disabler)
 > This Pluggable Module disables end-to-end encryption in a self-hosted Synapse servers. It works by stripping out requests for encryption from newly created rooms, patching power levels to prevent users from enabling encryption and additionally filtering out events for enabling E2EE on already existing rooms if a user or a room belongs to a configured list of servers.
+
+[Synapse Simple-Antispam](https://github.com/t2bot/synapse-simple-antispam)
+> A simple spam checker module for Synapse to block invites from unwanted homeservers
