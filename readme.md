@@ -19,3 +19,11 @@
 
 [Matrix encryption disabler](https://github.com/digitalentity/matrix_encryption_disabler)
 > This Pluggable Module disables end-to-end encryption in a self-hosted Synapse servers. It works by stripping out requests for encryption from newly created rooms, patching power levels to prevent users from enabling encryption and additionally filtering out events for enabling E2EE on already existing rooms if a user or a room belongs to a configured list of servers.
+
+[FEZ Chat Modules](https://heptapod.host/intevation/fac/synapse-modules)
+Repository of multiple modules:
+* *Message Type Filter*
+* *Restrict Direct Messages* (restricting event types and number of members in direct message rooms)
+* *Restrict Room Creation* for parent-less rootms to synapse admins
+* *Static Account Data* for user accounts (useful for stickerpicker deployment to all users)
+* Additional API endpoints for public spaces
