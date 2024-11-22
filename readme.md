@@ -27,3 +27,12 @@ Repository of multiple modules:
 * *Restrict Room Creation* for parent-less rootms to synapse admins
 * *Static Account Data* for user accounts (useful for stickerpicker deployment to all users)
 * Additional API endpoints for public spaces
+
+[Synapse Guest Module](https://github.com/nordeck/element-web-modules/blob/main/packages/synapse-guest-module/README.md)
+A pluggable synapse module to restrict the actions of guests.
+Features:
+Provides an endpoint that creates temporary users with a same pattern (default: guest-[randomstring]).
+The temporary users have a mandatory displayname suffix (default:  (Guest)) that they can't remove from their profile.
+The temporary users are limited in what they can do (examples: create room, invite users).
+The temporary users won't be returned by the user directory search results.
+The temporary users are disabled after an expiration timeout (default: 24 hours).
