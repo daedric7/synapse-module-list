@@ -21,18 +21,18 @@
 > This Pluggable Module disables end-to-end encryption in a self-hosted Synapse servers. It works by stripping out requests for encryption from newly created rooms, patching power levels to prevent users from enabling encryption and additionally filtering out events for enabling E2EE on already existing rooms if a user or a room belongs to a configured list of servers.
 
 [FEZ Chat Modules](https://heptapod.host/intevation/fac/synapse-modules)
-Repository of multiple modules:
-* *Message Type Filter*
-* *Restrict Direct Messages* (restricting event types and number of members in direct message rooms)
-* *Restrict Room Creation* for parent-less rootms to synapse admins
-* *Static Account Data* for user accounts (useful for stickerpicker deployment to all users)
-* Additional API endpoints for public spaces
+> Repository of multiple modules:
+> * *Message Type Filter*
+> * *Restrict Direct Messages* (restricting event types and number of members in direct message rooms)
+> * *Restrict Room Creation* for parent-less rootms to synapse admins
+> * *Static Account Data* for user accounts (useful for stickerpicker deployment to all users)
+> * Additional API endpoints for public spaces
 
 [Synapse Guest Module](https://github.com/nordeck/element-web-modules/blob/main/packages/synapse-guest-module/README.md)
-A pluggable synapse module to restrict the actions of guests.
-Features:
-Provides an endpoint that creates temporary users with a same pattern (default: guest-[randomstring]).
-The temporary users have a mandatory displayname suffix (default:  (Guest)) that they can't remove from their profile.
-The temporary users are limited in what they can do (examples: create room, invite users).
-The temporary users won't be returned by the user directory search results.
-The temporary users are disabled after an expiration timeout (default: 24 hours).
+> A pluggable synapse module to restrict the actions of guests.
+> Features:
+> * Provides an endpoint that creates temporary users with a same pattern (default: guest-[randomstring]).
+> * The temporary users have a mandatory displayname suffix (default:  (Guest)) that they can't remove from their profile.
+> * The temporary users are limited in what they can do (examples: create room, invite users).
+> * The temporary users won't be returned by the user directory search results.
+> * The temporary users are disabled after an expiration timeout (default: 24 hours).
