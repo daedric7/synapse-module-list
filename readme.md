@@ -32,6 +32,10 @@
 > A pluggable synapse module to restrict the actions of guests.
 > Features:
 > * Provides an endpoint that creates temporary users with a same pattern (default: guest-[randomstring]).
+
+[synapse-invite-checker](https://github.com/famedly/synapse-invite-checker)
+> Synapse Invite Checker is a synapse module to restrict invites on a homeserver according to the rules required by Gematik in a TIM federation.
+
 > * The temporary users have a mandatory displayname suffix (default:  (Guest)) that they can't remove from their profile.
 > * The temporary users are limited in what they can do (examples: create room, invite users).
 > * The temporary users won't be returned by the user directory search results.
