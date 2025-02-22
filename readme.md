@@ -28,6 +28,15 @@
 > * *Static Account Data* for user accounts (useful for stickerpicker deployment to all users)
 > * Additional API endpoints for public spaces
 
+[Synapse badlist spam filter](https://github.com/matrix-org/synapse-spamcheck-badlist/)
+> A simple spam checker module for Synapse, designed to block the upload of identified child sexual abuse imagery and links to identified child sexual abuse websites.
+> This filter requires
+> * a database of links of identified child sexual abuse websites (as published by e.g. the IWF);
+> * a database of MD5s of identified child sexual abuse imagery (as published by e.g. the IWF).
+> This filter
+> * rejects any message containing a link that matches the database;
+> * rejects any upload containing a file that matches the database.
+
 [Synapse Guest Module](https://github.com/nordeck/element-web-modules/blob/main/packages/synapse-guest-module/README.md)
 > A pluggable synapse module to restrict the actions of guests.
 > Features:
