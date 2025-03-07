@@ -45,3 +45,6 @@
 > * The temporary users are limited in what they can do (examples: create room, invite users).
 > * The temporary users won't be returned by the user directory search results.
 > * The temporary users are disabled after an expiration timeout (default: 24 hours).
+
+[synapse-registration-suspender](https://github.com/daedric7/synapse-registration-suspender)
+> Synapse module to suspend and join new accounts to a given room
