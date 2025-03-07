@@ -10,10 +10,6 @@
 [Synapse User Restrictions Module](https://github.com/matrix-org/synapse-user-restrictions)
 > This module allows restricting users, that match given regular expressions, from performing actions such as creating rooms or sending invites.
 
-[Auto-accept invites](https://github.com/matrix-org/synapse-auto-accept-invite)
-> Synapse module to automatically accept invites.
-> Compatible with Synapse v1.84.0 and later.
-
 [Matrix-Synapse Shielded User Invites Module](https://github.com/lovelaced/synapse-mayinvite)
 > This module is a matrix-synapse server module that blocks certain users from receiving invites from users on other homeservers. This is useful if you have a specific list of users that should not receive invites from users on other homeservers, for example if you want to protect the privacy of these users.
 
