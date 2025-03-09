@@ -48,3 +48,8 @@
 
 [synapse-registration-suspender](https://github.com/daedric7/synapse-registration-suspender)
 > Synapse module to suspend and join new accounts to a given room
+
+[synapse-http-antispam](https://github.com/maunium/synapse-http-antispam)
+> A Synapse spam checker module that forwards requests to an HTTP server.
+
+
